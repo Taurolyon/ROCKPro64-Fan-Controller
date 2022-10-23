@@ -32,6 +32,7 @@ and the second number is the relative fan speed as a decimal. Note that the fan 
 be off if set below `0.25`.
 The following is a fan curve with 25% at 60oC, 60% at 90oC, and 100% at 100oC:
 ```
+59,0
 60,0.25
 90,0.6
 100,1
