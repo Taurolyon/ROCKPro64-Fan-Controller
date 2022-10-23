@@ -9,8 +9,7 @@ INSTALL_LOCATION="/etc/FanControl"
 SERVICE_LOCATION="/lib/systemd/system/FanControl.service"
 
 # Stop and disable the services.
-systemctl stop FanControl.service
-systemctl disable FanControl.service
+systemctl disable FanControl.service --now
 
 # Remove the files.
 rm -rf $INSTALL_LOCATION
