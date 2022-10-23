@@ -27,6 +27,5 @@ echo "WantedBy=multi-user.target" >> $SERVICE_LOCATION
 
 # Enable and start the service.
 systemctl daemon-reload
-systemctl enable FanControl.service
-systemctl start FanControl.service
+systemctl enable FanControl.service --now
 systemctl status FanControl.service
