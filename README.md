@@ -30,7 +30,7 @@ By default, the fan curve file is in `/etc/FanControl/FanCurve.txt`. Each line
 contains a fan curve point, with the first number being the temperature in celsius
 and the second number is the relative fan speed as a decimal. Note that the fan will
 be off if set below `0.25`.
-The following is a fan curve with 25% at 60oC, 60% at 90oC, and 100% at 100oC:
+The following is a fan curve with 25% at 60°C, 60% at 90°C, and 100% at 100°C:
 ```
 59,0
 60,0.25
