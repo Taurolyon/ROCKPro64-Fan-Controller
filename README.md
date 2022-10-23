@@ -1,6 +1,5 @@
 # ROCKPro64 Fan Controller
-This system is a Python-based service for controlling the fan of
-the 10mm heatsink with fan. The fan speed is configurable as a text
+This system is a Python-based service for controlling the fan connected to the PWM FAN connector on the ROCKPro64 SMB. The fan speed is configurable as a text
 file to optimize for thermals or noise.
 
 # Installing
