@@ -11,7 +11,7 @@ git clone https://github.com/Taurolyon/ROCKPro64-Fan-Controller.git
 cd ROCKPro64-Fan-Controller
 ```
 ```
-sudo chmod +x ./*.sh
+chmod +x ./*.sh
 ```
 ```
 sudo ./Installer.sh
