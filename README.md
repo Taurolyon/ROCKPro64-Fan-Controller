@@ -5,7 +5,7 @@ file to optimize for thermals or noise.
 # Installing
 Installing can be done with the following:
 ```
-git clone https://github.com/Taurolyon/ROCKPro64-Fan-Controller.git
+git clone https://github.com/TheNexusAvenger/ROCKPro64-Fan-Controller.git
 ```
 ```
 cd ROCKPro64-Fan-Controller
