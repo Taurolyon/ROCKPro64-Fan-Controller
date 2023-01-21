@@ -6,14 +6,14 @@ Controls the PWM fan of the system.
 
 from Observer import FileObserver
 from Observer import Observer
-
+import os
 
 
 # The minimum PWM signal (0-255) for the fan to turn on.
 FAN_MINIMUM_PWM_SIGNAL = 64
 
 # The location of the file for controlling the PWM signal.
-PWM_FILE_LOCATION = "/sys/class/hwmon/hwmon3/pwm1"
+PWM_FILE_LOCATION = os.popen('find /sys/devices/ -name "pwm1"').read()
 
 
 
