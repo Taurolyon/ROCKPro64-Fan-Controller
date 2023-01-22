@@ -10,7 +10,7 @@ import os
 
 
 # The minimum PWM signal (0-255) for the fan to turn on.
-FAN_MINIMUM_PWM_SIGNAL = 64
+FAN_MINIMUM_PWM_SIGNAL = 128
 
 # The location of the file for controlling the PWM signal.
 PWM_FILE_LOCATION = os.popen('find /sys/devices/ -name "pwm1"').read()
